@@ -13,7 +13,19 @@
  *= require_tree .
  *= require_self
  */
- body { padding-top: 60px; }
- footer { margin-top: 100px; }
+h1 {
+  font-family: monospace;
+  color: grey;
+}
+
+ body {
+   padding-top: 60px;
+   font-family: monospace;
+ }
+ footer {
+   margin-top: 100px;
+   background-color: pink;
+   border: 2px dashed black;
+  }
  table, td, th { vertical-align: middle; border: none; }
  th { border-bottom: 1px solid #DDD; }
